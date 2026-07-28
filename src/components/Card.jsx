@@ -1,5 +1,3 @@
-
-
 export function Card({ name, role, email }) {
   return(
     <>
