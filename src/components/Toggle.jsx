@@ -12,3 +12,17 @@ export function ToggleButton() {
     </button>
   );
 }
+
+
+/* A cleaner approach, Instead of storing the entire text in state, store a boolean and derive the text from it:
+
+export function ToggleButton() {
+  const [isOn, setIsOn] = useState(false);
+
+  return (
+    <button onClick={() => setIsOn(!isOn)}>
+      Status: {isOn ? "ON" : "OFF"}
+    </button>
+  );
+}
+*/
