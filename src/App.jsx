@@ -18,7 +18,7 @@ function App() {
       <ToggleButton />
 
       <ProfileCompletion 
-        percentage="10%"  
+        percentage={32}  
       />
     </>
   );

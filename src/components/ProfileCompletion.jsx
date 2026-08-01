@@ -3,12 +3,12 @@ export function ProfileCompletion({ percentage }) {
   return(
     <>
       <p>
-        Profile Comletion
+        Profile Completion
       </p>
       <p>
-        {percentage === "100%"
+        {percentage === 100
           ? "✅ Completed"
-          : "⏳ In Progress"}
+          : `⏳ In Progress (${percentage}%)`}
       </p>
     </>
   )
