@@ -6,6 +6,7 @@ import { ProfileCompletion } from "./components/ProfileCompletion";
 import { ProductCard } from "./components/ProductCard";
 import { TemperatureDisplay } from "./components/Temperature"
 import { LikeButton } from "./components/LikeButton";
+import { NotificationBadge } from "./components/NotificationBadge";
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
       />
 
       <LikeButton />
+
+      <NotificationBadge 
+        notifications={234}
+      />
     </>
   );
 }
