@@ -5,6 +5,7 @@ import { ToggleButton } from "./components/Toggle";
 import { ProfileCompletion } from "./components/ProfileCompletion";
 import { ProductCard } from "./components/ProductCard";
 import { TemperatureDisplay } from "./components/Temperature"
+import { LikeButton } from "./components/LikeButton";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
       <TemperatureDisplay 
         temperature={24}
       />
+
+      <LikeButton />
     </>
   );
 }
