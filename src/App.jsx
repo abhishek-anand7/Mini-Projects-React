@@ -4,6 +4,7 @@ import { Counter } from "./components/Counter";
 import { ToggleButton } from "./components/Toggle";
 import { ProfileCompletion } from "./components/ProfileCompletion";
 import { ProductCard } from "./components/ProductCard";
+import { TemperatureDisplay } from "./components/Temperature"
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
         price={79999}
         rating={4.7}
         inStock={true}
+      />
+
+      <TemperatureDisplay 
+        temperature={24}
       />
     </>
   );
