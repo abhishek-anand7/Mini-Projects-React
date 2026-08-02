@@ -3,6 +3,7 @@ import "./App.css";
 import { Counter } from "./components/Counter";
 import { ToggleButton } from "./components/Toggle";
 import { ProfileCompletion } from "./components/ProfileCompletion";
+import { ProductCard } from "./components/ProductCard";
 
 function App() {
   return (
@@ -19,6 +20,13 @@ function App() {
 
       <ProfileCompletion 
         percentage={32}  
+      />
+
+      <ProductCard
+        title="Dell convertiable Laptop"
+        price={79999}
+        rating={4.7}
+        inStock={true}
       />
     </>
   );
