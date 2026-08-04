@@ -7,6 +7,7 @@ import { ProductCard } from "./components/ProductCard";
 import { TemperatureDisplay } from "./components/Temperature"
 import { LikeButton } from "./components/LikeButton";
 import { NotificationBadge } from "./components/NotificationBadge";
+import { ToDo } from "./components/ToDo";
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
       <NotificationBadge 
         notifications={234}
       />
+
+      <ToDo />
     </>
   );
 }
