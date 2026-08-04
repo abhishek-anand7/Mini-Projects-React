@@ -8,6 +8,7 @@ import { TemperatureDisplay } from "./components/Temperature"
 import { LikeButton } from "./components/LikeButton";
 import { NotificationBadge } from "./components/NotificationBadge";
 import { ToDo } from "./components/ToDo";
+import { LoginStatus } from "./components/LoginStatus";
 
 function App() {
   return (
@@ -44,6 +45,8 @@ function App() {
       />
 
       <ToDo />
+
+      <LoginStatus />
     </>
   );
 }
